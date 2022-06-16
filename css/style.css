@@ -1,60 +1,82 @@
 h1 {
     font-family: 'Press Start 2P', cursive;
     font-size: 72px;
-    color:black;
+    color: black;
     background-color: white;
     padding: 10px;
 }
 
-.myclass {
-    color:aqua;
-    font-size: 1000px;
-}
-
-.section-header{
-    background-color : #00A651;
-    padding-left : 20px;
+.section-header {
+    background-color: #00A651;
+    padding-left: 20px;
     padding-right: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-logo{
-    max-width : 137px;
-    padding-left : 20px;
+.header-logo {
+    max-width: 137px;
+    padding-left: 20px;
     padding-right: 20px;
-    color : white;
+    color: white;
     display: flex;
     align-items: center;
 }
 
-.menu-items{
+.menu-items {
     list-style-type: none;
-    padding-left : 20px;
+    padding-left: 20px;
     padding-right: 20px;
-    padding: 0 ;
+    padding: 0;
     display: flex;
-    color : white;
+    color: white;
     align-items: center;
 }
 
-li{
+li {
     display: inline;
     padding-left: 20px;
     cursor: pointer;
 }
 
-li:hover{
-    color : gold;
+li:hover {
+    color: gold;
 
 }
 
-.banner{
+.banner {
     height: 700px;
-    background-image:url('../images/banner\ 1.png');
-    display :flex;
+    background-image: url('../images/banner\ 1.png');
+    display: flex;
     align-items: center;
     justify-content: space-around;
     background-position: fixed;
+}
+
+h3 {
+    font-family: 'Press Start 2P', cursive
+}
+
+.section-programming {
+    padding: 10px;
+    background-color: #00A651;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.programming-img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.programming-text {
+    font-size: 36px;
+}
+
+h4 {
+    font-family: 'Press Start 2P', cursive
 }
